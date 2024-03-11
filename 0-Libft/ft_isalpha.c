@@ -1,7 +1,3 @@
-//
-// Created by ASRACHIE on 2024-03-03.
-//
-
 #include "libft.h"
 
 int	ft_isalpha(int c)
