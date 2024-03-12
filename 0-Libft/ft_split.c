@@ -1,6 +1,6 @@
 #include "libft.h"
 
-size_t	ft_count_words(char const *s, char c)
+static size_t	ft_count_words(char const *s, char c)
 {
 	size_t	i;
 	size_t	result;
@@ -21,7 +21,7 @@ size_t	ft_count_words(char const *s, char c)
 	return (result);
 }
 
-char	**ft_free_allocated_memory(char **result, size_t i)
+static char	**ft_free_allocated_memory(char **result, size_t i)
 {
 	while (i > 0)
 		free(result[--i]);

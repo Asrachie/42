@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int	ft_nbrlen(int n)
+static int	ft_nbrlen(int n)
 {
 	int	length;
 
