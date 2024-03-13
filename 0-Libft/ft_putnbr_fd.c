@@ -22,22 +22,3 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &v_n, 1);
 	}
 }
-
-//int main(void)
-//{
-//	int i = 0;
-//	while (i <= 100)
-//	{
-//		ft_putnbr_fd(i, 1);
-//		write(1, "\n", 1);
-//		i++;
-//	}
-//	i = -2147483648;
-//	while (i <= -2147483600)
-//	{
-//		ft_putnbr_fd(i, 1);
-//		write(1, "\n", 1);
-//		i++;
-//	}
-//	return (0);
-//}
