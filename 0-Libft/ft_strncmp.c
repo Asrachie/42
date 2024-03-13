@@ -6,6 +6,8 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	const unsigned char	*v_s2;
 	size_t				i;
 
+	if (!s1 || !s2)
+		return (0);
 	v_s1 = (const unsigned char *)s1;
 	v_s2 = (const unsigned char *)s2;
 	i = 0;
