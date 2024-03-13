@@ -10,6 +10,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		return (NULL);
 	result = (void *)malloc(total_size);
 	if (result)
-		return (memset(result, 0, total_size));
+		return (ft_memset(result, 0, total_size));
 	return (NULL);
 }
