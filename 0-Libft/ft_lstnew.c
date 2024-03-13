@@ -7,7 +7,7 @@ t_list	*ft_lstnew(void	*content)
 	result = (t_list *)malloc(sizeof(t_list));
 	if (!result)
 		return (NULL);
-	result -> content = NULL;
+	result -> content = content;
 	result -> next = NULL;
 	return (result);
 }
