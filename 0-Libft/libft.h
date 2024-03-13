@@ -36,7 +36,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
-int		main(void);
 
 // Part 2 - Additional functions
 char	*ft_substr(char const *s, unsigned int start, size_t len);
